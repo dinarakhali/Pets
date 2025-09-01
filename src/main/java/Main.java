@@ -1,4 +1,6 @@
-package animals;
+import animals.Cat;
+import animals.Dog;
+import animals.Parrot;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,5 +8,7 @@ public class Main {
         Cat cat1 = new Cat();
         dog1.makeSound();
         cat1.makeSound();
+        Parrot parrot1 = new Parrot();
+        parrot1.makeSound();
     }
 }
